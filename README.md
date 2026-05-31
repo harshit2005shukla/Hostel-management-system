@@ -206,3 +206,5 @@ For full manual guidelines covering production domain attachments, custom SSL pr
 This software is released under the **MIT License**. It has been fully hardened, passed rigorous Senior QA validation, and compiled using strict zero-warning static analysis checks.
 
 **Certified Production-Ready** by the Systems Engineering and Quality Assurance division.
+#   H o s t e l - m a n a g e m e n t - s y s t e m  
+ 
