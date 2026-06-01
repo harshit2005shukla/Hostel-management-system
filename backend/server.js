@@ -54,6 +54,13 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 await connectDB();
 
 // Root Health Check
+app.get('/', (req, res) => {
+  res.json({
+    status: 'success',
+    message: 'Smart Hostel Backend Live'
+  });
+});
+
 app.get('/api/v1/health', (req, res) => {
   res.status(200).json({
     status: 'success',
