@@ -3,7 +3,7 @@ import { Role } from '../types/architecture';
 
 // Configure Axios client
 export const api = axios.create({
-  baseURL: 'http://localhost:5000/api/v1',
+  baseURL: 'https://hostel-management-system-l2w6.onrender.com/api/v1',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json'
