@@ -2,6 +2,8 @@ import mongoose from 'mongoose';
 
 export const connectDB = async () => {
   try {
+    console.log("MONGO_URI =", process.env.MONGO_URI);
+
     const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/smart_hostel_production';
     
     const conn = await mongoose.connect(mongoURI, {
