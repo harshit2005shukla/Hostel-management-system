@@ -206,5 +206,38 @@ For full manual guidelines covering production domain attachments, custom SSL pr
 This software is released under the **MIT License**. It has been fully hardened, passed rigorous Senior QA validation, and compiled using strict zero-warning static analysis checks.
 
 **Certified Production-Ready** by the Systems Engineering and Quality Assurance division.
-#   H o s t e l - m a n a g e m e n t - s y s t e m  
+#   H o s t e l - m a n a g e m e n t - s y s t e m 
  
+ 
+
+## Live Deployment
+
+Frontend:
+https://hostel-management-system-frontend-vuxb.onrender.com
+
+Backend:
+https://hostel-management-system-backend.onrender.com
+
+Health Check:
+https://hostel-management-system-backend.onrender.com/api/v1/health
+
+---
+
+## Production Status
+
+✅ Frontend Deployed on Render
+
+✅ Backend Deployed on Render
+
+✅ MongoDB Atlas Connected
+
+✅ API Health Check Operational
+
+---
+
+## Author
+
+Harshit Shukla
+
+GitHub:
+https://github.com/harshit2005shukla
